@@ -34,6 +34,7 @@ for (const folder of commandFolders) {
   }
 }
 
+
 client.once(Events.ClientReady, (readyClient) => {
   console.log(`Ready! Logged in as ${readyClient.user.tag}`);
 });
